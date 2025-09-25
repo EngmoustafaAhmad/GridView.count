@@ -64,13 +64,19 @@ class GridExample extends StatelessWidget {
   }
 }
 
-⚙️ Key                     Properties
-Property                Description
-crossAxisCount            Number of columns in the grid.
-mainAxisSpacing            Vertical spacing between rows.
-crossAxisSpacing        Horizontal spacing between columns.
-childAspectRatio        Controls item width/height ratio.
-children                List of widgets displayed in the grid.
+⚙️ Key          ->           Properties
+
+Property         ->       Description
+
+crossAxisCount     ->       Number of columns in the grid.
+
+mainAxisSpacing     ->       Vertical spacing between rows.
+
+crossAxisSpacing    ->    Horizontal spacing between columns.
+
+childAspectRatio   ->     Controls item width/height ratio.
+
+children         ->       List of widgets displayed in the grid.
 🎯 When to Use
 
 Displaying product grids in e-commerce apps.
@@ -88,3 +94,4 @@ GridView.count → Fixed number of columns (simpler).
 GridView.builder → More efficient for large/dynamic lists.
 
 GridView.extent → Fixes the maximum width of items instead of column count.
+
